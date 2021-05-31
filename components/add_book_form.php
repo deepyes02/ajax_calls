@@ -36,7 +36,7 @@ form_post_book.addEventListener('click', (e)=>{
 	{
 		if(this.readyState == 4 && this.status == 200)
 		{
-			console.log(`${title} is a ${pages} pages long book written by ${author}`);
+			console.log(this.response);
 		} 
 	}
 
