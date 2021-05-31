@@ -1,0 +1,41 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background:rgb(226, 225, 233);
+}
+.notification_status{
+	position:absolute;
+	top: 5px;
+	letter-spacing: 1.3px;
+	font-weight: 100;
+	right: 10px;
+	color:rgb(250, 245, 245);
+	background:rgba(177, 151, 65, 0.288);
+	padding: 3px 10px;
+	border-radius: 4px;
+}
+
+.main_body > * {
+	padding: 3px 10px 0px;
+}
+
+footer{
+	background:rgba(207, 50, 50, 0.315);
+}
+
+.blips{
+	display:flex;
+	justify-content:center;
+	background:rgba(88, 69, 3, 0.712);
+	padding: 3px 10px;
+	border-radius: 4px;
+	width:fit-content;
+	font-size:14px;
+	visibility: visible;
+	color:rgb(255, 255, 255);
+}
+
+.display_none{
+	display:none;
+	visibility: hidden;
+}
